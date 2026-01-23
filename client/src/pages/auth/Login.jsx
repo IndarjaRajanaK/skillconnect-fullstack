@@ -8,6 +8,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Login data:", { email, password });
+    console.log("vercel deployment successful")
   };
 
   return (
